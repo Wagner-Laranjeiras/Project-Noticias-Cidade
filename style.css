@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+}
+
+.clear {
+    clear:both;
+}
+.border {
+    border: 1px solid red;
+}
+
+                                                     /* Início do menu superior */
+#menu_sup {
+    background-color: #284c71;
+    position: relative;
+    background-image:  url(images/logo.png), url(images/detalhe-topo.png), url(images/fundo.png);
+    background-position: top 10% left 30% , right 30% top, bottom left;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    padding: 115px;
+}
+
+#menu_links ul li {
+    list-style-type: none;
+    display: inline;
+    float: inline-end;
+}
+
+#menu_links {
+    position: absolute;
+    top: 54%;
+    left: 24%;
+}
+
+#menu_links ul .primeiro {
+    background-image:none;
+}
+
+#menu_sup a:link, a:visited {
+    /* background */
+    background-color: #de003e;
+    padding: 12px;
+    margin-left: -4px;
+    background-image: url(images/divisor.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    /* text */
+    text-decoration: none;
+    font-weight: 600;
+    color: #FFF
+}
+
+#menu_sup a:hover, a:active {
+    /* background */
+    background-color: #AE0032;
+    padding: 12px;
+    margin-left: -4px;
+    background-image: url(images/divisor.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    /* text */
+    text-decoration: none;
+    font-weight: 900;
+    color: #FFF
+}
+
+
+
+                                                     /* Fim do menu superior */
+                                                     /* Início dos conteúdos */
+
+
+#body_margin {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+                                                                                        
+.float {
+    float: left;
+}
+
+
+h2 {
+    margin: 20px 90px 20px 0px;
+    line-height: 30px;
+    padding: 8px;
+    background-color: #284c71;
+    color: #fff;
+    text-align: left;
+    width: 240px;
+}
+                                                     /* Fim dos conteúdos */
+
+.background {
+    background-image: url(images/fundo-caixa.png);
+    width: 200px;
+}
