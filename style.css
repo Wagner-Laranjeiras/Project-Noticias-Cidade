@@ -1,5 +1,10 @@
 * {
     margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
 }
 
 .clear {
@@ -17,6 +22,7 @@
     background-position: top 10% left 30% , right 30% top, bottom left;
     background-repeat: no-repeat, no-repeat, repeat-x;
     padding: 115px;
+    min-width: 800px;
 }
 
 #menu_links ul li {
@@ -68,29 +74,68 @@
                                                      /* Fim do menu superior */
                                                      /* Início dos conteúdos */
 
-
-#body_margin {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-                                                                                        
 .float {
     float: left;
 }
 
+#body_content {
+    margin-left: 15%;
+    margin-right: 15%;
+    min-width: 60rem;
+}
+ 
 
-h2 {
+.background {
+    background-image: url(images/fundo-caixa.png);
+    width: 15rem;
+    margin: 2rem;
+}
+
+.background h2 {
     margin: 20px 90px 20px 0px;
     line-height: 30px;
     padding: 8px;
     background-color: #284c71;
     color: #fff;
     text-align: left;
-    width: 240px;
+    width: 15rem;   
 }
+
+.background h4 {
+    color: #fff;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    background-color: #AE0032;
+    width: 13.4rem;
+    line-height: 1rem;
+    padding: 0.12rem;
+    margin: 1em;
+}
+
+.background h6 {
+    color:#4d87c0;
+    margin: 1rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+#img_entrevista img {
+    padding: 1rem;
+    width: 15rem;
+
+}
+
+#img_destaque img {
+    padding: 1rem;
+    width: 15rem;
+}
+
+.img_comp img {
+    padding: 0.5rem;
+    width: 8rem;
+    float: left;
+}
+
+
                                                      /* Fim dos conteúdos */
 
-.background {
-    background-image: url(images/fundo-caixa.png);
-    width: 200px;
-}
